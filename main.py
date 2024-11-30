@@ -39,14 +39,21 @@ def main():
             elif brightness == 2: 
                 # Very bright
                 print(brightness)
+            
+            contrast = iqa.iqa_contrast_std(frame)
+            if contrast == 1:
+                # Low contrast
+                print(brightness)
+            elif contrast == 2: 
+                # High contrast
+                print(brightness)
 
             ## Object Detection
             frame, confidence, cls = detect_object(frame)
 
             # Low confidence (threshold is 80%)
             if confidence < 0.80:
-                
-
+                print(confidence)
 
             # If frame is read correctly ret is True
             if not ret:
@@ -64,14 +71,4 @@ def main():
 
     except KeyboardInterrupt:
         # Stop the robot on exit
-        d3.sendCommand('navigate.drive', { "throttle": 0, "turn": 0 })  
-        d3.sendCommand('screensaver.nudge')
-        d3.close()
-        print('Cleaned up')
-        sys.exit(0)
-
-    # Cleanup
-    d3.sendCommand('navigate.drive', { "throttle": 0, "turn": 0 })  
-    d3.sendCommand('screensaver.nudge')
-    d3.close()
-    print('Cleaned up')
+        doubleControl.cleanup()
