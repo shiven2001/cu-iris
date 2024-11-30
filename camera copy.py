@@ -124,4 +124,5 @@ def release_camera(cap):
 
 
 url = "http://192.168.2.9:4747/video?type=some.mjpeg"
-camera_stream(url)
+#camera_stream(url)
+camera_stream(0)

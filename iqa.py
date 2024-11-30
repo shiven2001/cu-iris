@@ -18,8 +18,8 @@ def iqa_blur_laplacian(frame):
         # No blur
         return 0
        
-def iqa_brightness_mean(frame):
-    mean_brightness = np.mean(frame)
+def iqa_brightness_mean(gray_frame):
+    mean_brightness = np.mean(gray_frame)
     if mean_brightness <= 50:
         # Low light
         return 1

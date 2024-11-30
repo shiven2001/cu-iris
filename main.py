@@ -1,43 +1,77 @@
 import cv2
-import numpy as np
 import iqa
+from obj_detection import detect_object
+import doubleControl
 
-# Main function
 def main():
-    cap = cv2.VideoCapture(0)
-    cap.set(3, 640)
-    cap.set(4, 480)
-    if not cap.isOpened():
-        print("Cannot open camera")
-        exit()
-        
-    while True:
-        # Capture frame-by-frame
-        ret, frame = cap.read()
-        frame = cv2.resize(frame, (640, 480))
+    # Camera module url
+    url = "http://192.168.1.103:4747/video?type=some.mjpeg"
 
-        # object details
-        font = cv2.FONT_HERSHEY_SIMPLEX
-        fontScale = 0.5
-        color = (255, 0, 0)
-        thickness = 1
+    try:
+        #cap = cv2.VideoCapture(url)
+        cap = cv2.VideoCapture(0)
+        cap.set(3, 640)
+        cap.set(4, 480)
+        focus = 0
 
-        contrast = str(iqa.iqa_contrast_std(frame))
+        if not cap.isOpened():
+            print("Cannot open camera")
+            exit()
 
-        cv2.putText(frame, contrast, (10, 30), font, fontScale, color, thickness)
+        while True:
+            ret, frame = cap.read()
+            frame = cv2.resize(frame, (640, 480))
+            frame = cv2.flip(frame, 0)
 
-        # If frame is read correctly ret is True
-        if not ret:
-            print("Can't receive frame, exiting ...")
-            break
+            ## IQA
+            blur = iqa.iqa_blur_laplacian(frame)
+            if blur == 1:
+                # Refocus
+                #cap.set(cv2.CAP_PROP_FOCUS, focus)
+                cap.set(cv2.CAP_PROP_AUTOFOCUS, 1)
+                # Stop Robot Movement (actually it should be reducing the speed not stopping)
+                doubleControl.stop()
+            
+            brightness = iqa.iqa_brightness_mean(frame)
+            if brightness == 1:
+                # Low light so turn on flash
+                print(brightness)
+            elif brightness == 2: 
+                # Very bright
+                print(brightness)
 
-        cv2.imshow('Webcam', frame)
+            ## Object Detection
+            frame, confidence, cls = detect_object(frame)
 
-        if cv2.waitKey(1) == ord('q'):
-            break
+            # Low confidence (threshold is 80%)
+            if confidence < 0.80:
+                
 
-    cap.release()
-    cv2.destroyAllWindows()
 
-if __name__ == "__main__":
-    main()
+            # If frame is read correctly ret is True
+            if not ret:
+                print("Can't receive frame, exiting ...")
+                break
+
+            ## Operations on the frame come here
+            cv2.imshow('Webcam', frame)
+
+            if cv2.waitKey(1) == ord('q'):
+                break
+
+        cap.release()
+        cv2.destroyAllWindows()
+
+    except KeyboardInterrupt:
+        # Stop the robot on exit
+        d3.sendCommand('navigate.drive', { "throttle": 0, "turn": 0 })  
+        d3.sendCommand('screensaver.nudge')
+        d3.close()
+        print('Cleaned up')
+        sys.exit(0)
+
+    # Cleanup
+    d3.sendCommand('navigate.drive', { "throttle": 0, "turn": 0 })  
+    d3.sendCommand('screensaver.nudge')
+    d3.close()
+    print('Cleaned up')
