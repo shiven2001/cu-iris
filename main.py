@@ -12,7 +12,6 @@ def main():
         cap = cv2.VideoCapture(0)
         cap.set(3, 640)
         cap.set(4, 480)
-        focus = 0
 
         if not cap.isOpened():
             print("Cannot open camera")
@@ -25,6 +24,7 @@ def main():
 
             ## IQA
             blur = iqa.iqa_blur_laplacian(frame)
+
             if blur == 1:
                 # Refocus
                 #cap.set(cv2.CAP_PROP_FOCUS, focus)
@@ -53,7 +53,9 @@ def main():
 
             # Low confidence (threshold is 80%)
             if confidence < 0.80:
+                # Move closer to the object
                 print(confidence)
+                examine_object(confidence)
 
             # If frame is read correctly ret is True
             if not ret:

@@ -1,0 +1,35 @@
+[0.103s] Invoking command in '/home/shiven/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/orbslam3
+[0.133s] [ 25%] Built target rgbd
+[0.134s] [ 50%] Built target mono
+[0.134s] [ 75%] Built target stereo-inertial
+[0.135s] [100%] Built target stereo
+[0.141s] Invoked command in '/home/shiven/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/orbslam3
+[0.158s] Invoking command in '/home/shiven/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/orbslam3
+[0.161s] -- Install configuration: "Release"
+[0.161s] -- Execute custom install script
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/orbslam3/mono
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/orbslam3/rgbd
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/orbslam3/stereo
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/environment/pythonpath.sh
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/environment/pythonpath.dsv
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/python3.8/site-packages/orbslam3/__init__.py
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/orbslam3/camera_publisher.py
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/lib/orbslam3/url_camera_publisher.py
+[0.162s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/environment/path.sh
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/environment/path.dsv
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/local_setup.bash
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/local_setup.sh
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/local_setup.zsh
+[0.163s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/local_setup.dsv
+[0.163s] -- Symlinking: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/package.dsv
+[0.167s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[0.167s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[0.167s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[0.167s] -- Up-to-date symlink: /home/shiven/colcon_ws/install/orbslam3/share/orbslam3/package.xml
+[0.180s] Listing '/home/shiven/colcon_ws/install/orbslam3/lib/python3.8/site-packages/orbslam3'...
+[0.182s] Invoked command in '/home/shiven/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/orbslam3

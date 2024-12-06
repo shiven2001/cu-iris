@@ -1,0 +1,19 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+In file included from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/io/boost.h:68[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/io/file_io.h:42[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/shiven/colcon_ws/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:40[m[K:
+[01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:73:7:[m[K [01;31m[Kerror: [m[K#error "No high resolution steady clock in your system, please provide a patch"
+   73 | #     [01;31m[Kerror[m[K "No high resolution steady clock in your system, please provide a patch"
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/shiven/colcon_ws/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:55:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+   55 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rtabmap_conversions.dir/build.make:63: CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/rtabmap_conversions.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

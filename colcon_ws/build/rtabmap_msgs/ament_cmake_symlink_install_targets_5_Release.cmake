@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/shiven/colcon_ws/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/librtabmap_msgs__python.so" "TARGETS" "rtabmap_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

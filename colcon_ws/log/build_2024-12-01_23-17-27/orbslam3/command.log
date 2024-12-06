@@ -1,0 +1,2 @@
+Invoking command in '/home/shiven/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/orbslam3
+Invoked command in '/home/shiven/colcon_ws/build/orbslam3' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/orbslam3

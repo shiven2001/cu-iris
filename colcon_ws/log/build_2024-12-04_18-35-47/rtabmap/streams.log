@@ -1,0 +1,320 @@
+[0.012s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap
+[0.107s] [  5%] Built target rtabmap_utilite
+[0.107s] [  6%] Built target res_tool
+[0.160s] [ 55%] Built target rtabmap_core
+[0.168s] [ 55%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[0.171s] [ 56%] Built target imagesJoiner
+[0.173s] [ 57%] Built target extractObject
+[0.173s] [ 58%] Built target consoleApp
+[0.176s] [ 59%] Built target stereoEval
+[0.176s] [ 59%] Built target rtabmap_gui_autogen
+[0.176s] [ 60%] Built target camera
+[0.186s] [ 61%] Built target recovery
+[0.186s] [ 62%] Built target kitti_dataset
+[0.186s] [ 63%] Built target rgbd_dataset
+[0.186s] [ 64%] Built target euroc_dataset
+[0.188s] [ 65%] Built target reprocess
+[0.190s] [ 66%] Built target detectMoreLoopClosures
+[0.199s] [ 67%] Built target info
+[0.199s] [ 68%] Built target cleanupLocalGrids
+[0.199s] [ 68%] Built target export
+[0.202s] [ 69%] Built target globalBundleAdjustment
+[0.203s] [ 70%] Built target lidar_viewer
+[0.257s] [ 87%] Built target rtabmap_gui
+[0.272s] [ 88%] Built target report
+[0.272s] [ 90%] Built target odometryViewer
+[0.273s] [ 90%] Built target epipolar_geometry
+[0.273s] [ 91%] Built target databaseViewer
+[0.273s] [ 91%] Built target rgbd_camera
+[0.273s] [ 92%] Built target rtabmap_app
+[0.281s] [ 94%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[0.281s] [ 94%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[0.285s] [ 94%] Built target bow_mapping
+[0.287s] [ 94%] Built target dataRecorder
+[0.287s] [ 95%] Built target calibration
+[0.290s] [ 95%] Built target wifi_mapping_autogen
+[0.291s] [ 95%] Built target rgbd_mapping_autogen
+[0.291s] [ 96%] Built target matcher
+[0.293s] [ 96%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[0.294s] [ 96%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[0.300s] [ 96%] Built target noEventsExample_autogen
+[0.301s] [ 96%] Built target lidar_mapping_autogen
+[0.308s] [ 97%] Built target wifi_mapping
+[0.308s] [ 98%] Built target rgbd_mapping
+[0.319s] [ 99%] Built target noEventsExample
+[0.320s] [100%] Built target lidar_mapping
+[0.325s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap
+[0.342s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/rtabmap
+[0.345s] -- Install configuration: "Release"
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.9
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_utilite.so
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h
+[0.345s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-res_tool
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so.0.21.9
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so.0.21
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureInfo.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h
+[0.346s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar/LidarVLP16.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h
+[0.347s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraSeerSense.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureThread.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCapture.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LASWriter.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h
+[0.348s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Lidar.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorEvent.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptorExtractor.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo
+[0.349s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.9
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so.0.21
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h
+[0.350s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h
+[0.351s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-console
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-extractObject
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-camera
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-recovery
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-reprocess
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-export
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-report
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-info
+[0.352s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[0.353s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[0.353s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+[0.353s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-lidar_viewer
+[0.353s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-databaseViewer
+[0.353s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-odometryViewer
+[0.353s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-dataRecorder
+[0.354s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-calibration
+[0.354s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake
+[0.354s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake
+[0.354s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake
+[0.354s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/share/rtabmap/package.xml
+[0.355s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/rtabmap

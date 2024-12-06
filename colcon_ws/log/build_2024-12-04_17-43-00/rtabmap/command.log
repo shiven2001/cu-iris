@@ -1,0 +1,6 @@
+Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/rtabmap
+Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/rtabmap
+Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap
+Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap
+Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/rtabmap
+Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/rtabmap

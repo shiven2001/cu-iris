@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4.c
+lz4.h
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4.h
+intrin.h
+-
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4.h
+
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4hc.c
+lz4hc.h
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4hc.h
+lz4.c
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4.c
+
+/home/shiven/colcon_ws/src/rtabmap/corelib/src/rtflann/ext/lz4hc.h
+stddef.h
+-
+

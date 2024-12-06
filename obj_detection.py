@@ -9,7 +9,10 @@ classNames = ["face", "background"]
 def detect_object(frame):
 
     ## Object Detection Part
-    results = model(frame, stream=True)
+    #results = model(frame, stream=True)
+    results = model.track(source=frame, show=True, stream=True, tracker='bytetrack.yaml')
+    # ByteTrack - Use bytetrack.yaml to enable this tracker.
+    # BoT-SORT - Use botsort.yaml to enable this tracker.
 
     for info in results:
         boxes = info.boxes

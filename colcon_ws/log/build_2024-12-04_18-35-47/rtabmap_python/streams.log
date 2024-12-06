@@ -1,0 +1,16 @@
+[0.286s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap_python': PYTHONPATH=/home/shiven/colcon_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiven/colcon_ws/install/rtabmap_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shiven/colcon_ws/build/rtabmap_python/build --no-deps symlink_data
+[0.378s] running develop
+[0.431s] running egg_info
+[0.431s] writing rtabmap_python.egg-info/PKG-INFO
+[0.431s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[0.431s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[0.431s] writing requirements to rtabmap_python.egg-info/requires.txt
+[0.431s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[0.444s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.444s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.458s] running build_ext
+[0.458s] Creating /home/shiven/colcon_ws/install/rtabmap_python/lib/python3.8/site-packages/rtabmap-python.egg-link (link to .)
+[0.459s] 
+[0.459s] Installed /home/shiven/colcon_ws/build/rtabmap_python
+[0.459s] running symlink_data
+[0.472s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/shiven/colcon_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiven/colcon_ws/install/rtabmap_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/shiven/colcon_ws/build/rtabmap_python/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/shiven/colcon_ws/src/rtabmap_ros/rtabmap_msgs/msg/Path.msg

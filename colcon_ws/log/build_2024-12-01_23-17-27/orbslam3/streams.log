@@ -1,0 +1,53 @@
+[0.005s] Invoking command in '/home/shiven/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/orbslam3
+[0.033s] -- The C compiler identification is GNU 9.4.0
+[0.073s] -- The CXX compiler identification is GNU 9.4.0
+[0.075s] -- Check for working C compiler: /usr/bin/cc
+[0.151s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.153s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.262s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.308s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.375s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.391s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.391s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.462s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.471s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.524s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.538s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.597s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.598s] -- Looking for pthread.h
+[0.634s] -- Looking for pthread.h - found
+[0.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.699s] -- Looking for pthread_create in pthreads
+[0.750s] -- Looking for pthread_create in pthreads - not found
+[0.750s] -- Looking for pthread_create in pthread
+[0.834s] -- Looking for pthread_create in pthread - found
+[0.835s] -- Found Threads: TRUE  
+[0.914s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.968s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.980s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[0.992s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[0.995s] CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+[0.995s]   Could NOT find ORB_SLAM3 (missing: ORB_SLAM3_LIBRARY ORB_SLAM3_INCLUDE_DIR
+[0.995s]   DBoW2_INCLUDE_DIR DBoW2_LIBRARY g2o_LIBRARY)
+[0.995s] Call Stack (most recent call first):
+[0.995s]   /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+[0.995s]   CMakeModules/FindORB_SLAM3.cmake:37 (find_package_handle_standard_args)
+[0.995s]   CMakeLists.txt:25 (find_package)
+[0.995s] 
+[0.995s] 
+[0.995s] -- Configuring incomplete, errors occurred!
+[0.995s] See also "/home/shiven/colcon_ws/build/orbslam3/CMakeFiles/CMakeOutput.log".
+[0.995s] See also "/home/shiven/colcon_ws/build/orbslam3/CMakeFiles/CMakeError.log".
+[0.999s] Invoked command in '/home/shiven/colcon_ws/build/orbslam3' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/orbslam3

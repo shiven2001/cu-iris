@@ -1,0 +1,90 @@
+[0.005s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap_conversions': AMENT_PREFIX_PATH=/home/shiven/colcon_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiven/colcon_ws/install/rtabmap_msgs:/home/shiven/colcon_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/shiven/colcon_ws/install/rtabmap_msgs/lib:/home/shiven/colcon_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shiven/colcon_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shiven/colcon_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shiven/colcon_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/shiven/colcon_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap_conversions
+[0.017s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.104s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.121s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found image_geometry: 3.0.7 (/opt/ros/foxy/share/image_geometry/cmake)
+[0.258s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[0.260s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.339s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.414s] -- Found rtabmap_msgs: 0.21.9 (/home/shiven/colcon_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[0.489s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.493s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[0.644s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.667s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.676s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.678s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.679s] ** WARNING ** io features related to pcap will be disabled
+[0.679s] ** WARNING ** io features related to png will be disabled
+[0.704s] -- The imported target "vtkParseOGLExt" references the file
+[0.704s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.704s] but this file does not exist.  Possible reasons include:
+[0.704s] * The file was deleted, renamed, or moved to another location.
+[0.704s] * An install or uninstall procedure did not complete successfully.
+[0.704s] * The installation package was faulty and contained
+[0.704s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.704s] but not all the files it references.
+[0.704s] 
+[0.704s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.704s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.704s] but this file does not exist.  Possible reasons include:
+[0.704s] * The file was deleted, renamed, or moved to another location.
+[0.704s] * An install or uninstall procedure did not complete successfully.
+[0.704s] * The installation package was faulty and contained
+[0.704s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.704s] but not all the files it references.
+[0.704s] 
+[0.705s] -- The imported target "vtk" references the file
+[0.705s]    "/usr/bin/vtk"
+[0.705s] but this file does not exist.  Possible reasons include:
+[0.705s] * The file was deleted, renamed, or moved to another location.
+[0.705s] * An install or uninstall procedure did not complete successfully.
+[0.705s] * The installation package was faulty and contained
+[0.705s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.705s] but not all the files it references.
+[0.705s] 
+[0.705s] -- The imported target "pvtk" references the file
+[0.705s]    "/usr/bin/pvtk"
+[0.705s] but this file does not exist.  Possible reasons include:
+[0.705s] * The file was deleted, renamed, or moved to another location.
+[0.705s] * An install or uninstall procedure did not complete successfully.
+[0.705s] * The installation package was faulty and contained
+[0.705s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.705s] but not all the files it references.
+[0.705s] 
+[0.711s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.721s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.735s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.737s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.743s] -- looking for PCL_COMMON
+[0.743s] -- looking for PCL_OCTREE
+[0.743s] -- looking for PCL_IO
+[0.744s] -- looking for PCL_KDTREE
+[0.744s] -- looking for PCL_SEARCH
+[0.744s] -- looking for PCL_SURFACE
+[0.745s] -- looking for PCL_FILTERS
+[0.745s] -- looking for PCL_2D
+[0.745s] -- looking for PCL_FEATURES
+[0.745s] -- looking for PCL_REGISTRATION
+[0.746s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.746s] -- looking for PCL_GEOMETRY
+[0.746s] -- looking for PCL_ML
+[0.746s] -- looking for PCL_SEGMENTATION
+[0.747s] -- looking for PCL_VISUALIZATION
+[0.823s] -- Configuring done
+[0.855s] -- Generating done
+[0.855s] -- Build files have been written to: /home/shiven/colcon_ws/build/rtabmap_conversions
+[0.873s] [35m[1mScanning dependencies of target rtabmap_conversions[0m
+[0.887s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o[0m
+[1.673s] [01m[K/home/shiven/colcon_ws/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:55:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[1.673s]    55 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+[1.673s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.673s] compilation terminated.
+[1.688s] make[2]: *** [CMakeFiles/rtabmap_conversions.dir/build.make:63: CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
+[1.688s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/rtabmap_conversions.dir/all] Error 2
+[1.689s] make: *** [Makefile:141: all] Error 2
+[1.691s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap_conversions' returned '2': AMENT_PREFIX_PATH=/home/shiven/colcon_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiven/colcon_ws/install/rtabmap_msgs:/home/shiven/colcon_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/shiven/colcon_ws/install/rtabmap_msgs/lib:/home/shiven/colcon_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/shiven/colcon_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/shiven/colcon_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/shiven/colcon_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/shiven/colcon_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap_conversions

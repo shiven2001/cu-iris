@@ -1,0 +1,4 @@
+Invoking command in '/home/shiven/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/orbslam3 -- -j32 -l32
+Invoked command in '/home/shiven/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/orbslam3 -- -j32 -l32
+Invoking command in '/home/shiven/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/orbslam3
+Invoked command in '/home/shiven/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/orbslam3

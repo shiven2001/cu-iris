@@ -1,0 +1,1 @@
+/home/shiven/colcon_ws/build/rtabmap_msgs/rosidl_cmake/srv/GetNodeData_Response.msg

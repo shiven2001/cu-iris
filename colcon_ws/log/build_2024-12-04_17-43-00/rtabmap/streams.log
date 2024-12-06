@@ -1,0 +1,855 @@
+[0.012s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/rtabmap
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.115s] -- The CXX compiler identification is GNU 9.4.0
+[0.118s] -- Check for working C compiler: /usr/bin/cc
+[0.149s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.150s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.186s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.222s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.265s] -- MOBILE_BUILD=OFF
+[0.280s] -- Checking for module 'eigen3'
+[0.288s] --   Found eigen3, version 3.4.0
+[0.302s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.302s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.331s] -- Checking for module 'libusb-1.0'
+[0.338s] --   Found libusb-1.0, version 1.0.23
+[0.353s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.375s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.403s] -- The imported target "vtkParseOGLExt" references the file
+[0.403s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.403s] but this file does not exist.  Possible reasons include:
+[0.403s] * The file was deleted, renamed, or moved to another location.
+[0.403s] * An install or uninstall procedure did not complete successfully.
+[0.404s] * The installation package was faulty and contained
+[0.404s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.404s] but not all the files it references.
+[0.404s] 
+[0.404s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.404s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.404s] but this file does not exist.  Possible reasons include:
+[0.404s] * The file was deleted, renamed, or moved to another location.
+[0.404s] * An install or uninstall procedure did not complete successfully.
+[0.404s] * The installation package was faulty and contained
+[0.404s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.404s] but not all the files it references.
+[0.404s] 
+[0.404s] -- The imported target "vtk" references the file
+[0.404s]    "/usr/bin/vtk"
+[0.404s] but this file does not exist.  Possible reasons include:
+[0.404s] * The file was deleted, renamed, or moved to another location.
+[0.404s] * An install or uninstall procedure did not complete successfully.
+[0.404s] * The installation package was faulty and contained
+[0.404s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.404s] but not all the files it references.
+[0.404s] 
+[0.405s] -- The imported target "pvtk" references the file
+[0.405s]    "/usr/bin/pvtk"
+[0.405s] but this file does not exist.  Possible reasons include:
+[0.405s] * The file was deleted, renamed, or moved to another location.
+[0.405s] * An install or uninstall procedure did not complete successfully.
+[0.405s] * The installation package was faulty and contained
+[0.405s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.405s] but not all the files it references.
+[0.405s] 
+[0.416s] -- Found libusb-1.0: /usr/include  
+[0.423s] -- Checking for module 'flann'
+[0.430s] --   Found flann, version 1.9.1
+[0.451s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.458s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[0.458s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.473s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.479s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.479s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[0.480s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[0.481s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[0.481s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[0.482s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[0.482s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[0.483s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[0.483s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[0.484s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[0.485s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[0.485s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[0.486s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[0.486s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[0.487s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[0.487s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[0.495s] -- Found SQLite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[0.612s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.651s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.651s] -- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+[0.651s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.so
+[0.651s] -- Add PCL_OMP to definitions
+[0.651s] -- Found OpenCV: /usr/local/include/opencv4
+[0.651s] -- Found PCL: /usr/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include/x86_64-linux-gnu
+[0.651s] -- Found ZLIB: /usr/include
+[0.695s] -- VTK_RENDERING_BACKEND=OpenGL2
+[0.715s] -- Found OpenNI2: /usr/include/openni2
+[0.716s] -- Found DC1394: /usr/include/dc1394
+[0.720s] -- Could NOT find g2o (missing: g2o_DIR)
+[0.720s] -- RTAB-Map's cmake g2o find module used for convenience (for older g2o versions)
+[0.722s] -- Could NOT find CSPARSE (missing: CSPARSE_INCLUDE_DIR CSPARSE_LIBRARY) 
+[0.749s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[0.749s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[0.749s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[0.750s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[0.750s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[0.764s] -- Found RealSense2: 
+[0.771s] -- Found octomap 1.9.3: /usr/include
+[0.781s] -- Architecture: x86_64
+[0.790s] -- Performing Test COMPILER_SUPPORTS_CXX14
+[0.828s] -- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+[0.833s] -- Found Pthreads
+[0.835s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.874s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.874s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.914s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[0.914s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.954s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.021s] -- --------------------------------------------
+[1.021s] -- Info :
+[1.021s] --   RTAB-Map Version =     0.21.9
+[1.021s] --   CMAKE_VERSION =        3.16.3
+[1.022s] --   CMAKE_INSTALL_PREFIX = /home/shiven/colcon_ws/install/rtabmap
+[1.022s] --   CMAKE_BUILD_TYPE =     Release
+[1.022s] --   CMAKE_INSTALL_LIBDIR = lib
+[1.022s] --   BUILD_APP =            ON
+[1.022s] --   BUILD_TOOLS =          ON
+[1.022s] --   BUILD_EXAMPLES =       ON
+[1.022s] --   BUILD_SHARED_LIBS =    ON
+[1.022s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0  -fopenmp -std=c++14
+[1.022s] --   FLANN_KDTREE_MEM_OPT = OFF
+[1.022s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG;-DDISABLE_LIBUSB_1_0
+[1.022s] --   PCL_VERSION = 1.10.0
+[1.022s] -- 
+[1.022s] -- Optional dependencies ('*' affects some default parameters) :
+[1.022s] --  *With OpenCV 4.2.0 xfeatures2d = YES, nonfree = NO (License: BSD)
+[1.022s] --   With Qt 5.12.8            = YES (License: Open Source or Commercial)
+[1.022s] --   With VTK 7.1              = YES (License: BSD)
+[1.022s] --   With external SQLite3     = YES (License: Public Domain)
+[1.022s] --   With ORB OcTree           = YES (License: GPLv3)
+[1.022s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[1.022s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[1.023s] --   With Madgwick             = YES (License: GPL)
+[1.023s] --   With FastCV               = NO (FastCV not found)
+[1.023s] --   With PDAL                 = NO (PDAL not found)
+[1.023s] --   With libLAS               = NO (WITH_LIBLAS=OFF)
+[1.023s] --   With CudaSift             = NO (WITH_CUDASIFT=OFF)
+[1.023s] -- 
+[1.023s] --  Solvers:
+[1.023s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[1.023s] --  *With g2o                  = NO (g2o not found)
+[1.023s] --  *With GTSAM                = NO (GTSAM not found)
+[1.023s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[1.023s] --   With MRPT                 = NO (MRPT not found)
+[1.023s] --   With VERTIGO              = NO (GTSAM or g2o required)
+[1.023s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[1.023s] --  *With libpointmatcher      = NO (libpointmatcher not found)
+[1.023s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[1.023s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[1.023s] --   With OpenGV               = NO (OpenGV not found)
+[1.023s] -- 
+[1.024s] --  Reconstruction Approaches:
+[1.024s] --   With OctoMap 1.9.3        = YES (License: BSD)
+[1.024s] --   With GridMap              = NO (grid_map_core not found)
+[1.024s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[1.024s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[1.024s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[1.024s] -- 
+[1.024s] --  Camera Drivers:
+[1.024s] --   With Freenect             = NO (libfreenect not found)
+[1.024s] --   With OpenNI               = YES (License: Apache v2)
+[1.024s] --   With OpenNI2              = YES (License: Apache v2)
+[1.024s] --   With Freenect2            = NO (libfreenect2 not found)
+[1.024s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[1.024s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[1.024s] --   With dc1394               = YES (License: LGPL)
+[1.024s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[1.024s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[1.024s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[1.024s] --   With RealSense            = NO (librealsense not found)
+[1.025s] --   With RealSense2 2.55.1    = YES (License: Apache-2)
+[1.025s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[1.025s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[1.025s] --   With XVisio SDK           = NO (WITH_XVSDK=OFF)
+[1.025s] -- 
+[1.025s] --  Odometry Approaches:
+[1.025s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[1.025s] --   With floam                = NO (WITH_FLOAM=OFF)
+[1.025s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[1.025s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[1.025s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[1.025s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[1.025s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[1.025s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[1.025s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[1.025s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[1.026s] -- Show all options with: cmake -LA | grep WITH_
+[1.026s] -- --------------------------------------------
+[1.032s] -- Configuring done
+[1.317s] -- Generating done
+[1.320s] -- Build files have been written to: /home/shiven/colcon_ws/build/rtabmap
+[1.342s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shiven/colcon_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shiven/colcon_ws/install/rtabmap
+[1.344s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap
+[1.370s] [35m[1mScanning dependencies of target rtabmap_utilite[0m
+[1.384s] [  0%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UDirectory.cpp.o[0m
+[1.384s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsManager.cpp.o[0m
+[1.385s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsHandler.cpp.o[0m
+[1.385s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsSender.cpp.o[0m
+[1.385s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UFile.cpp.o[0m
+[1.385s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UConversion.cpp.o[0m
+[1.500s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/ULogger.cpp.o[0m
+[1.500s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UThread.cpp.o[0m
+[1.659s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UTimer.cpp.o[0m
+[1.783s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UProcessInfo.cpp.o[0m
+[1.871s] [  5%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UVariant.cpp.o[0m
+[2.216s] [  5%] [32m[1mLinking CXX shared library ../../bin/librtabmap_utilite.so[0m
+[2.269s] [  5%] Built target rtabmap_utilite
+[2.277s] [35m[1mScanning dependencies of target res_tool[0m
+[2.287s] [  5%] [32mBuilding CXX object utilite/resource_generator/CMakeFiles/res_tool.dir/main.cpp.o[0m
+[2.723s] [  6%] [32m[1mLinking CXX executable ../../bin/rtabmap-res_tool[0m
+[2.764s] [  6%] Built target res_tool
+[2.769s] [  6%] [34m[1m[Creating resources][0m
+[2.771s]  Using namespace=rtabmap
+[2.771s]  Using target directory=/home/shiven/colcon_ws/build/rtabmap/corelib/src
+[2.771s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/DatabaseSchema.sql" size = 5900 bytes
+[2.771s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_sql.h" size = 12027 bytes
+[2.771s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_3.sql" size = 5749 bytes
+[2.771s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_3_sql.h" size = 11753 bytes
+[2.771s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_18_0.sql" size = 5749 bytes
+[2.771s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_0_18_0_sql.h" size = 11753 bytes
+[2.771s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_17_0.sql" size = 5432 bytes
+[2.771s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_0_17_0_sql.h" size = 11119 bytes
+[2.771s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_2.sql" size = 5362 bytes
+[2.771s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_2_sql.h" size = 10979 bytes
+[2.771s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_1.sql" size = 5286 bytes
+[2.772s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_1_sql.h" size = 10827 bytes
+[2.772s] Input file "/home/shiven/colcon_ws/src/rtabmap/corelib/src/resources/backward_compatibility/DatabaseSchema_0_16_0.sql" size = 5273 bytes
+[2.772s] Output file "/home/shiven/colcon_ws/build/rtabmap/corelib/src/DatabaseSchema_0_16_0_sql.h" size = 10801 bytes
+[2.781s] [35m[1mScanning dependencies of target rtabmap_core[0m
+[3.489s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RtabmapThread.cpp.o[0m
+[3.489s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o[0m
+[3.489s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriver.cpp.o[0m
+[3.489s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Statistics.cpp.o[0m
+[3.489s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Rtabmap.cpp.o[0m
+[3.490s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriverSqlite3.cpp.o[0m
+[7.735s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBReader.cpp.o[0m
+[8.821s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Recovery.cpp.o[0m
+[9.324s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorCapture.cpp.o[0m
+[10.678s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorCaptureThread.cpp.o[0m
+[12.269s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Camera.cpp.o[0m
+[12.281s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraModel.cpp.o[0m
+[14.249s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[14.299s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect2.cpp.o[0m
+[14.576s] [ 12%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraImages.cpp.o[0m
+[14.682s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4W2.cpp.o[0m
+[16.330s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraK4A.cpp.o[0m
+[16.458s] [ 13%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenni.cpp.o[0m
+[16.699s] [ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNI2.cpp.o[0m
+[16.969s] [ 14%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraOpenNICV.cpp.o[0m
+[18.329s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense.cpp.o[0m
+[18.387s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRealSense2.cpp.o[0m
+[19.118s] [ 15%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraRGBDImages.cpp.o[0m
+[19.953s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoDC1394.cpp.o[0m
+[20.074s] [ 16%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoFlyCapture2.cpp.o[0m
+[20.359s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoImages.cpp.o[0m
+[21.187s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoVideo.cpp.o[0m
+[21.339s] [ 17%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZed.cpp.o[0m
+[21.961s] [ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoZedOC.cpp.o[0m
+[22.184s] [ 18%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraStereoTara.cpp.o[0m
+[22.520s] [ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraVideo.cpp.o[0m
+[22.564s] [ 19%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraMyntEye.cpp.o[0m
+[22.583s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraDepthAI.cpp.o[0m
+[23.199s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraSeerSense.cpp.o[0m
+[23.364s] [ 20%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/EpipolarGeometry.cpp.o[0m
+[23.807s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VisualWord.cpp.o[0m
+[23.903s] [ 21%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/VWDictionary.cpp.o[0m
+[24.190s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/BayesFilter.cpp.o[0m
+[24.276s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Parameters.cpp.o[0m
+[24.435s] [ 22%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Signature.cpp.o[0m
+[24.553s] [ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Features2d.cpp.o[0m
+[26.901s] [ 23%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Transform.cpp.o[0m
+[27.449s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GeodeticCoords.cpp.o[0m
+[27.501s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util2d.cpp.o[0m
+[27.782s] [ 24%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d.cpp.o[0m
+[28.003s] [ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_filtering.cpp.o[0m
+[28.591s] [ 25%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_mapping.cpp.o[0m
+[31.530s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_transforms.cpp.o[0m
+[31.672s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_registration.cpp.o[0m
+[31.729s] [ 26%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_surface.cpp.o[0m
+[32.411s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_features.cpp.o[0m
+[34.717s] [ 27%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_correspondences.cpp.o[0m
+[35.711s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/util3d_motion_estimation.cpp.o[0m
+[35.900s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/SensorData.cpp.o[0m
+[38.003s] [ 28%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Graph.cpp.o[0m
+[38.048s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Compression.cpp.o[0m
+[38.715s] [ 29%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Link.cpp.o[0m
+[39.096s] [ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LaserScan.cpp.o[0m
+[39.117s] [ 30%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Optimizer.cpp.o[0m
+[39.785s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerTORO.cpp.o[0m
+[40.022s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerG2O.cpp.o[0m
+[42.836s] [ 31%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerGTSAM.cpp.o[0m
+[43.001s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCVSBA.cpp.o[0m
+[43.098s] [ 32%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/OptimizerCeres.cpp.o[0m
+[43.847s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Registration.cpp.o[0m
+[44.024s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationIcp.cpp.o[0m
+[44.147s] [ 33%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RegistrationVis.cpp.o[0m
+[45.391s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Odometry.cpp.o[0m
+[45.538s] [ 34%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/OdometryThread.cpp.o[0m
+[45.651s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2M.cpp.o[0m
+[46.948s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMono.cpp.o[0m
+[48.657s] [ 35%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryF2F.cpp.o[0m
+[50.250s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFovis.cpp.o[0m
+[51.232s] [ 36%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryViso2.cpp.o[0m
+[51.521s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryDVO.cpp.o[0m
+[52.454s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOkvis.cpp.o[0m
+[52.487s] [ 37%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM2.cpp.o[0m
+[52.760s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryORBSLAM3.cpp.o[0m
+[52.851s] [ 38%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryLOAM.cpp.o[0m
+[53.400s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryFLOAM.cpp.o[0m
+[53.674s] [ 39%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryMSCKF.cpp.o[0m
+[55.178s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryVINS.cpp.o[0m
+[56.327s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpenVINS.cpp.o[0m
+[56.875s] [ 40%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/odometry/OdometryOpen3D.cpp.o[0m
+[57.141s] [ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMU.cpp.o[0m
+[57.218s] [ 41%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUThread.cpp.o[0m
+[57.755s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/IMUFilter.cpp.o[0m
+[57.847s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/ComplementaryFilter.cpp.o[0m
+[57.858s] [ 42%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Stereo.cpp.o[0m
+[58.731s] [ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoDense.cpp.o[0m
+[58.835s] [ 43%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/StereoCameraModel.cpp.o[0m
+[58.874s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoBM.cpp.o[0m
+[58.995s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/stereo/StereoSGBM.cpp.o[0m
+[59.032s] [ 44%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GlobalMap.cpp.o[0m
+[59.768s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGridMaker.cpp.o[0m
+[59.858s] [ 45%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/LocalGrid.cpp.o[0m
+[60.114s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OccupancyGrid.cpp.o[0m
+[60.199s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/CloudMap.cpp.o[0m
+[60.454s] [ 46%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/MarkerDetector.cpp.o[0m
+[61.102s] [ 47%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GlobalDescriptorExtractor.cpp.o[0m
+[61.287s] [ 47%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/GainCompensator.cpp.o[0m
+[62.961s] [ 48%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4.c.o[0m
+[63.143s] [ 48%] [32mBuilding C object corelib/src/CMakeFiles/rtabmap_core.dir/rtflann/ext/lz4hc.c.o[0m
+[63.339s] [ 48%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/FlannIndex.cpp.o[0m
+[63.802s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model_helpers.cpp.o[0m
+[64.400s] [ 49%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/discrete_depth_distortion_model.cpp.o[0m
+[64.599s] [ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/frame_projector.cpp.o[0m
+[65.058s] [ 50%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/clams/slam_calibrator.cpp.o[0m
+[65.408s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/ORBextractor.cc.o[0m
+[65.773s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/solvepnp.cpp.o[0m
+[66.549s] [ 51%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/opencv/five-point.cpp.o[0m
+[66.696s] [ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/lidar/LidarVLP16.cpp.o[0m
+[66.827s] [ 52%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph3.cpp.o[0m
+[66.891s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3_iteration.cpp.o[0m
+[67.287s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer3.cpp.o[0m
+[67.478s] [ 53%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/posegraph2.cpp.o[0m
+[67.542s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/optimizer/toro3d/treeoptimizer2.cpp.o[0m
+[67.764s] [ 54%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/global_map/OctoMap.cpp.o[0m
+[67.885s] [ 55%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/imufilter/MadgwickFilter.cpp.o[0m
+[73.595s] [ 55%] [32m[1mLinking CXX shared library ../../bin/librtabmap_core.so[0m
+[76.252s] [ 55%] Built target rtabmap_core
+[76.257s] [35m[1mScanning dependencies of target rtabmap_gui_autogen[0m
+[76.257s] [35m[1mScanning dependencies of target consoleApp[0m
+[76.257s] [35m[1mScanning dependencies of target imagesJoiner[0m
+[76.257s] [35m[1mScanning dependencies of target extractObject[0m
+[76.257s] [35m[1mScanning dependencies of target camera[0m
+[76.257s] [35m[1mScanning dependencies of target stereoEval[0m
+[76.261s] [ 55%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[76.271s] [ 56%] [32mBuilding CXX object tools/ImagesJoiner/CMakeFiles/imagesJoiner.dir/main.cpp.o[0m
+[76.281s] [ 58%] [32mBuilding CXX object tools/Camera/CMakeFiles/camera.dir/main.cpp.o[0m
+[76.281s] [ 58%] [32mBuilding CXX object tools/ConsoleApp/CMakeFiles/consoleApp.dir/main.cpp.o[0m
+[76.281s] [ 58%] [32mBuilding CXX object tools/ExtractObject/CMakeFiles/extractObject.dir/main.cpp.o[0m
+[76.282s] [ 58%] [32mBuilding CXX object tools/StereoEval/CMakeFiles/stereoEval.dir/main.cpp.o[0m
+[77.504s] [ 58%] [32m[1mLinking CXX executable ../../bin/rtabmap-imagesJoiner[0m
+[78.041s] [ 58%] Built target imagesJoiner
+[78.058s] [35m[1mScanning dependencies of target kitti_dataset[0m
+[78.103s] [ 58%] [32mBuilding CXX object tools/KittiDataset/CMakeFiles/kitti_dataset.dir/main.cpp.o[0m
+[78.809s] [ 58%] [32m[1mLinking CXX executable ../../bin/rtabmap-camera[0m
+[79.459s] [ 58%] Built target camera
+[79.464s] [35m[1mScanning dependencies of target rgbd_dataset[0m
+[79.494s] [ 59%] [32mBuilding CXX object tools/RgbdDataset/CMakeFiles/rgbd_dataset.dir/main.cpp.o[0m
+[79.967s] [ 59%] Built target rtabmap_gui_autogen
+[79.972s] [35m[1mScanning dependencies of target euroc_dataset[0m
+[79.998s] [ 59%] [32mBuilding CXX object tools/EurocDataset/CMakeFiles/euroc_dataset.dir/main.cpp.o[0m
+[80.431s] [ 60%] [32m[1mLinking CXX executable ../../bin/rtabmap-stereoEval[0m
+[81.006s] [ 60%] Built target stereoEval
+[81.011s] [35m[1mScanning dependencies of target recovery[0m
+[81.017s] [ 61%] [32mBuilding CXX object tools/Recovery/CMakeFiles/recovery.dir/main.cpp.o[0m
+[81.100s] [ 62%] [32m[1mLinking CXX executable ../../bin/rtabmap-console[0m
+[81.144s] [ 62%] [32m[1mLinking CXX executable ../../bin/rtabmap-recovery[0m
+[81.646s] [ 62%] Built target consoleApp
+[81.652s] [35m[1mScanning dependencies of target reprocess[0m
+[81.655s] [ 62%] Built target recovery
+[81.660s] [35m[1mScanning dependencies of target detectMoreLoopClosures[0m
+[81.679s] [ 62%] [32mBuilding CXX object tools/Reprocess/CMakeFiles/reprocess.dir/main.cpp.o[0m
+[81.695s] [ 63%] [32mBuilding CXX object tools/DetectMoreLoopClosures/CMakeFiles/detectMoreLoopClosures.dir/main.cpp.o[0m
+[82.463s] [ 64%] [32m[1mLinking CXX executable ../../bin/rtabmap-kitti_dataset[0m
+[83.006s] [ 64%] Built target kitti_dataset
+[83.011s] [35m[1mScanning dependencies of target export[0m
+[83.043s] [ 64%] [32mBuilding CXX object tools/Export/CMakeFiles/export.dir/main.cpp.o[0m
+[84.828s] [ 65%] [32m[1mLinking CXX executable ../../bin/rtabmap-euroc_dataset[0m
+[84.935s] [ 65%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_dataset[0m
+[85.395s] [ 65%] Built target euroc_dataset
+[85.400s] [35m[1mScanning dependencies of target info[0m
+[85.426s] [ 65%] [32mBuilding CXX object tools/Info/CMakeFiles/info.dir/main.cpp.o[0m
+[85.489s] [ 65%] Built target rgbd_dataset
+[85.494s] [35m[1mScanning dependencies of target cleanupLocalGrids[0m
+[85.520s] [ 65%] [32mBuilding CXX object tools/CleanupLocalGrids/CMakeFiles/cleanupLocalGrids.dir/main.cpp.o[0m
+[85.965s] [ 65%] [32m[1mLinking CXX executable ../../bin/rtabmap-extractObject[0m
+[86.661s] [ 65%] Built target extractObject
+[86.665s] [35m[1mScanning dependencies of target globalBundleAdjustment[0m
+[86.691s] [ 66%] [32mBuilding CXX object tools/GlobalBundleAdjustment/CMakeFiles/globalBundleAdjustment.dir/main.cpp.o[0m
+[87.582s] [ 67%] [32m[1mLinking CXX executable ../../bin/rtabmap-reprocess[0m
+[87.775s] [ 67%] [32m[1mLinking CXX executable ../../bin/rtabmap-detectMoreLoopClosures[0m
+[88.159s] [ 67%] Built target reprocess
+[88.165s] [35m[1mScanning dependencies of target lidar_viewer[0m
+[88.211s] [ 68%] [32mBuilding CXX object tools/LidarViewer/CMakeFiles/lidar_viewer.dir/main.cpp.o[0m
+[88.322s] [ 68%] Built target detectMoreLoopClosures
+[88.327s] [ 69%] [34m[1mAutomatic RCC for GuiLib.qrc[0m
+[88.347s] [ 69%] [34m[1m[Creating resources][0m
+[88.349s]  Using namespace=rtabmap
+[88.349s]  Using target directory=/home/shiven/colcon_ws/build/rtabmap/guilib/src
+[88.349s] Input file "/home/shiven/colcon_ws/src/rtabmap/data/presets/camera_tof_icp.ini" size = 687 bytes
+[88.349s] Output file "/home/shiven/colcon_ws/build/rtabmap/guilib/src/camera_tof_icp_ini.h" size = 1571 bytes
+[88.349s] Input file "/home/shiven/colcon_ws/src/rtabmap/data/presets/lidar3d_icp.ini" size = 1137 bytes
+[88.349s] Output file "/home/shiven/colcon_ws/build/rtabmap/guilib/src/lidar3d_icp_ini.h" size = 2465 bytes
+[88.356s] [35m[1mScanning dependencies of target rtabmap_gui[0m
+[88.401s] [ 70%] [32m[1mLinking CXX executable ../../bin/rtabmap-cleanupLocalGrids[0m
+[88.601s] [ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/mocs_compilation.cpp.o[0m
+[88.627s] [ 71%] [32m[1mLinking CXX executable ../../bin/rtabmap-info[0m
+[88.946s] [ 71%] Built target cleanupLocalGrids
+[88.950s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MainWindow.cpp.o[0m
+[89.183s] [ 72%] Built target info
+[89.187s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PreferencesDialog.cpp.o[0m
+[89.617s] [ 72%] [32m[1mLinking CXX executable ../../bin/rtabmap-globalBundleAdjustment[0m
+[90.153s] [ 72%] Built target globalBundleAdjustment
+[90.158s] [ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/KeypointItem.cpp.o[0m
+[90.758s] [ 73%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ImageView.cpp.o[0m
+[92.154s] [ 73%] [32m[1mLinking CXX executable ../../bin/rtabmap-export[0m
+[92.889s] [ 73%] Built target export
+[92.893s] [ 73%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PdfPlot.cpp.o[0m
+[94.258s] [ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/StatsToolBox.cpp.o[0m
+[94.607s] [ 74%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ProgressDialog.cpp.o[0m
+[95.093s] [ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/AboutDialog.cpp.o[0m
+[95.195s] [ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ConsoleWidget.cpp.o[0m
+[95.416s] [ 75%] [32m[1mLinking CXX executable ../../bin/rtabmap-lidar_viewer[0m
+[95.762s] [ 75%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DatabaseViewer.cpp.o[0m
+[96.109s] [ 75%] Built target lidar_viewer
+[96.113s] [ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/utilite/UPlot.cpp.o[0m
+[96.136s] [ 76%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewer.cpp.o[0m
+[97.795s] [ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerCellPicker.cpp.o[0m
+[98.117s] [ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewerInteractorStyle.cpp.o[0m
+[100.148s] [ 77%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/OdometryViewer.cpp.o[0m
+[102.116s] [ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LoopClosureViewer.cpp.o[0m
+[105.606s] [ 78%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DataRecorder.cpp.o[0m
+[106.576s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CameraViewer.cpp.o[0m
+[107.000s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CalibrationDialog.cpp.o[0m
+[107.458s] [ 79%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportDialog.cpp.o[0m
+[108.001s] [ 80%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportBundlerDialog.cpp.o[0m
+[109.126s] [ 80%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PostProcessingDialog.cpp.o[0m
+[111.965s] [ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportCloudsDialog.cpp.o[0m
+[112.079s] [ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditConstraintDialog.cpp.o[0m
+[112.101s] [ 81%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MapVisibilityWidget.cpp.o[0m
+[112.302s] [ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/GraphViewer.cpp.o[0m
+[113.032s] [ 82%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditDepthArea.cpp.o[0m
+[113.058s] [ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/EditMapArea.cpp.o[0m
+[114.471s] [ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocWidget.cpp.o[0m
+[114.474s] [ 83%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocSubView.cpp.o[0m
+[115.136s] [ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CreateSimpleCalibrationDialog.cpp.o[0m
+[116.031s] [ 84%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ParametersToolBox.cpp.o[0m
+[116.810s] [ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DepthCalibrationDialog.cpp.o[0m
+[117.260s] [ 85%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/LinkRefiningDialog.cpp.o[0m
+[117.793s] [ 86%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/3rdParty/QMultiComboBox.cpp.o[0m
+[118.102s] [ 86%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/opencv/vtkImageMatSource.cpp.o[0m
+[118.318s] [ 86%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/rtabmap_gui_autogen/EWIEGA46WW/qrc_GuiLib.cpp.o[0m
+[127.873s] [ 87%] [32m[1mLinking CXX shared library ../../bin/librtabmap_gui.so[0m
+[128.832s] [ 87%] Built target rtabmap_gui
+[128.836s] [35m[1mScanning dependencies of target rtabmap_app[0m
+[128.836s] [35m[1mScanning dependencies of target rgbd_camera[0m
+[128.837s] [35m[1mScanning dependencies of target report[0m
+[128.837s] [35m[1mScanning dependencies of target databaseViewer[0m
+[128.837s] [35m[1mScanning dependencies of target epipolar_geometry[0m
+[128.837s] [35m[1mScanning dependencies of target odometryViewer[0m
+[128.869s] [ 88%] [32mBuilding CXX object tools/Report/CMakeFiles/report.dir/main.cpp.o[0m
+[128.871s] [ 89%] [32mBuilding CXX object tools/OdometryViewer/CMakeFiles/odometryViewer.dir/main.cpp.o[0m
+[128.872s] [ 90%] [32mBuilding CXX object tools/DatabaseViewer/CMakeFiles/databaseViewer.dir/main.cpp.o[0m
+[128.872s] [ 90%] [32mBuilding CXX object tools/EpipolarGeometry/CMakeFiles/epipolar_geometry.dir/main.cpp.o[0m
+[128.873s] [ 90%] [32mBuilding CXX object app/src/CMakeFiles/rtabmap_app.dir/main.cpp.o[0m
+[128.873s] [ 90%] [32mBuilding CXX object tools/CameraRGBD/CMakeFiles/rgbd_camera.dir/main.cpp.o[0m
+[131.878s] [ 90%] [32m[1mLinking CXX executable ../../bin/rtabmap-databaseViewer[0m
+[132.205s] [ 91%] [32m[1mLinking CXX executable ../../bin/rtabmap[0m
+[132.338s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-epipolar_geometry[0m
+[132.576s] [ 92%] Built target databaseViewer
+[132.581s] [35m[1mScanning dependencies of target dataRecorder[0m
+[132.617s] [ 92%] [32mBuilding CXX object tools/DataRecorder/CMakeFiles/dataRecorder.dir/main.cpp.o[0m
+[132.907s] [ 92%] [32m[1mLinking CXX executable ../../bin/rtabmap-odometryViewer[0m
+[132.925s] [ 92%] Built target rtabmap_app
+[132.930s] [35m[1mScanning dependencies of target calibration[0m
+[132.966s] [ 93%] [32mBuilding CXX object tools/Calibration/CMakeFiles/calibration.dir/main.cpp.o[0m
+[133.129s] [ 93%] Built target epipolar_geometry
+[133.134s] [35m[1mScanning dependencies of target matcher[0m
+[133.177s] [ 93%] [32mBuilding CXX object tools/Matcher/CMakeFiles/matcher.dir/main.cpp.o[0m
+[133.638s] [ 93%] Built target odometryViewer
+[133.643s] [35m[1mScanning dependencies of target bow_mapping[0m
+[133.668s] [ 93%] [32mBuilding CXX object examples/BOWMapping/CMakeFiles/bow_mapping.dir/main.cpp.o[0m
+[134.531s] [ 93%] [32m[1mLinking CXX executable ../../bin/rtabmap-report[0m
+[135.285s] [ 93%] Built target report
+[135.289s] [35m[1mScanning dependencies of target rgbd_mapping_autogen[0m
+[135.294s] [ 94%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[135.530s] [ 94%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_camera[0m
+[135.864s] [ 94%] Built target rgbd_mapping_autogen
+[135.869s] [35m[1mScanning dependencies of target wifi_mapping_autogen[0m
+[135.874s] [ 95%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[136.198s] [ 95%] Built target rgbd_camera
+[136.203s] [35m[1mScanning dependencies of target noEventsExample_autogen[0m
+[136.207s] [ 95%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[136.280s] [ 95%] Built target noEventsExample_autogen
+[136.284s] [35m[1mScanning dependencies of target lidar_mapping_autogen[0m
+[136.289s] [ 95%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[136.364s] [ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-dataRecorder[0m
+[136.460s] [ 95%] Built target wifi_mapping_autogen
+[136.465s] [35m[1mScanning dependencies of target rgbd_mapping[0m
+[136.516s] [ 96%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/rgbd_mapping_autogen/mocs_compilation.cpp.o[0m
+[136.849s] [ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-calibration[0m
+[136.861s] [ 96%] Built target lidar_mapping_autogen
+[136.865s] [35m[1mScanning dependencies of target wifi_mapping[0m
+[136.915s] [ 96%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/wifi_mapping_autogen/mocs_compilation.cpp.o[0m
+[137.051s] [ 96%] Built target dataRecorder
+[137.056s] [35m[1mScanning dependencies of target noEventsExample[0m
+[137.106s] [ 96%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/noEventsExample_autogen/mocs_compilation.cpp.o[0m
+[137.146s] [ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-bow_mapping[0m
+[137.582s] [ 96%] Built target calibration
+[137.588s] [35m[1mScanning dependencies of target lidar_mapping[0m
+[137.636s] [ 96%] [32mBuilding CXX object examples/LidarMapping/CMakeFiles/lidar_mapping.dir/lidar_mapping_autogen/mocs_compilation.cpp.o[0m
+[137.691s] [ 96%] Built target bow_mapping
+[137.695s] [ 97%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/main.cpp.o[0m
+[138.734s] [ 98%] [32m[1mLinking CXX executable ../../bin/rtabmap-matcher[0m
+[139.540s] [ 98%] Built target matcher
+[139.544s] [ 98%] [32mBuilding CXX object examples/LidarMapping/CMakeFiles/lidar_mapping.dir/main.cpp.o[0m
+[141.748s] [ 99%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/main.cpp.o[0m
+[142.151s] [ 99%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/main.cpp.o[0m
+[142.874s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[142.874s]                  from [01m[K/usr/include/c++/9/cstring:42[m[K,
+[142.874s]                  from [01m[K/usr/include/eigen3/Eigen/Core:283[m[K,
+[142.874s]                  from [01m[K/home/shiven/colcon_ws/src/rtabmap/corelib/src/../include/rtabmap/core/Transform.h:35[m[K,
+[142.874s]                  from [01m[K/home/shiven/colcon_ws/src/rtabmap/corelib/src/../include/rtabmap/core/Odometry.h:33[m[K,
+[142.874s]                  from [01m[K/home/shiven/colcon_ws/src/rtabmap/examples/WifiMapping/main.cpp:28[m[K:
+[142.874s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[142.874s]     inlined from ‘[01m[Kvirtual void WifiThread::mainLoop()[m[K’ at [01m[K/home/shiven/colcon_ws/src/rtabmap/examples/WifiMapping/WifiThread.h:180:11[m[K:
+[142.874s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 16 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[142.874s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[142.874s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[143.517s] [ 99%] [32m[1mLinking CXX executable ../../bin/rtabmap-wifi_mapping[0m
+[144.266s] [ 99%] Built target wifi_mapping
+[146.223s] [100%] [32m[1mLinking CXX executable ../../bin/rtabmap-lidar_mapping[0m
+[147.009s] [100%] Built target lidar_mapping
+[148.578s] [100%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_mapping[0m
+[149.310s] [100%] [32m[1mLinking CXX executable ../../bin/rtabmap-noEventsExample[0m
+[149.489s] [100%] Built target rgbd_mapping
+[150.066s] [100%] Built target noEventsExample
+[150.076s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shiven/colcon_ws/build/rtabmap
+[150.095s] Invoking command in '/home/shiven/colcon_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/rtabmap
+[150.099s] -- Install configuration: "Release"
+[150.099s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21.9
+[150.099s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_utilite.so.0.21
+[150.099s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_utilite.so
+[150.099s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[150.099s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UTimer.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMutex.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEvent.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Posix/UThreadC.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsManager.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UStl.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UtiLite.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/USemaphore.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDestroyer.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/ULogger.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadC.h
+[150.100s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UObjDeletionThread.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UException.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UMath.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UProcessInfo.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UVariant.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UConversion.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsSender.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UThreadC.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/Win32/UWin32.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UFile.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UDirectory.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UEventsHandler.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThreadNode.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UThread.h
+[150.101s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[150.101s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/utilite_export.h
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets.cmake
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_utiliteTargets-release.cmake
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-res_tool
+[150.101s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0" to ""
+[150.101s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so.0.21.9
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so.0.21
+[150.105s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so.0.21.9" to ""
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_core.so
+[150.105s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GeodeticCoords.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorData.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Camera.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Image.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VWDictionary.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptor.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Statistics.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoDense.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Registration.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureInfo.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapEvent.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/GridMap.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OctoMap.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/OccupancyGrid.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/global_map/CloudMap.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_correspondences.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/lidar/LidarVLP16.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d.h
+[150.105s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGrid.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGB.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerGTSAM.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCeres.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerG2O.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerCVSBA.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/optimizer/OptimizerTORO.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Signature.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Parameters.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect2.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoImages.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraDepthAI.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNI2.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4W2.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense2.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraK4A.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenni.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRealSense.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraImages.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZed.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoVideo.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraRGBDImages.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoTara.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraOpenNICV.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoDC1394.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoZedOC.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraVideo.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraMyntEye.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraFreenect.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/camera/CameraSeerSense.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationVis.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Link.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OctoMap.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Compression.h
+[150.106s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCaptureThread.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorCapture.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OccupancyGrid.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PythonInterface.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/StereoCameraModel.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationInfo.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GainCompensator.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryInfo.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryEvent.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Graph.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ProgressState.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/VisualWord.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LASWriter.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFovis.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMono.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM3.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOkvis.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryORBSLAM2.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryDVO.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpen3D.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryMSCKF.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryLOAM.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2M.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryFLOAM.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryVINS.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryF2F.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryViso2.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/odometry/OdometryOpenVINS.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/OdometryThread.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraEvent.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParticleFilter.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Lidar.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_transforms.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_registration.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraRGBD.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_filtering.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util2d.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/SensorEvent.h
+[150.107s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/MarkerDetector.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Recovery.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/BayesFilter.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GPS.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_features.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EnvSensor.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/FlannIndex.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Rtabmap.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RtabmapThread.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LaserScan.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBReader.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Optimizer.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Features2d.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Transform.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Stereo.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d.hpp
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_surface.hpp
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/util3d_mapping.hpp
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/impl/LocalMapMaker.hpp
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalDescriptorExtractor.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/EpipolarGeometry.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Landmark.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraModel.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Odometry.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoBM.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/stereoRectifyFisheye.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/stereo/StereoSGBM.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/UserDataEvent.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/LocalGridMaker.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraInfo.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_motion_estimation.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/GlobalMap.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/PDALWriter.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriver.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUFilter.h
+[150.108s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraThread.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/RegistrationIcp.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/DBDriverSqlite3.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMUThread.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_surface.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/util3d_mapping.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/CameraStereo.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/ParamEvent.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/IMU.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Memory.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/discrete_depth_distortion_model.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/slam_calibrator.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/clams/frame_projector.h
+[150.109s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[150.109s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/Version.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/core/rtabmap_core_export.h
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets.cmake
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_coreTargets-release.cmake
+[150.109s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.9
+[150.112s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so.0.21
+[150.112s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so.0.21.9" to ""
+[150.112s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/librtabmap_gui.so
+[150.112s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[150.112s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[150.112s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerInteractorStyle.h
+[150.112s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DataRecorder.h
+[150.112s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/GraphViewer.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/AboutDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditDepthArea.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CameraViewer.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/RecoveryState.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ImageView.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PdfPlot.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ConsoleWidget.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocWidget.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DepthCalibrationDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PreferencesDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportBundlerDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MapVisibilityWidget.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewerCellPicker.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/TexturingState.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MultiSessionLocSubView.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditConstraintDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/MainWindow.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ProgressDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CalibrationDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ExportCloudsDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/OdometryViewer.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/StatsToolBox.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/CloudViewer.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LoopClosureViewer.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/ParametersToolBox.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/PostProcessingDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/EditMapArea.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/LinkRefiningDialog.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/DatabaseViewer.h
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/KeypointItem.h
+[150.113s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite
+[150.113s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UImageView.h
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UCv2Qt.h
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/utilite/UPlot.h
+[150.114s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap
+[150.114s] -- Up-to-date: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/include/rtabmap-0.21/rtabmap/gui/rtabmap_gui_export.h
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets.cmake
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMap_guiTargets-release.cmake
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap
+[150.114s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap" to ""
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-console
+[150.114s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-console" to ""
+[150.114s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-extractObject
+[150.114s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-extractObject" to ""
+[150.115s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-camera
+[150.115s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-camera" to ""
+[150.115s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+[150.115s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-kitti_dataset" to ""
+[150.115s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+[150.115s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-rgbd_dataset" to ""
+[150.115s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+[150.116s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-euroc_dataset" to ""
+[150.116s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-recovery
+[150.116s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-recovery" to ""
+[150.116s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-reprocess
+[150.116s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-reprocess" to ""
+[150.116s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[150.116s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures" to ""
+[150.116s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-export
+[150.117s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-export" to ""
+[150.117s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-report
+[150.117s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-report" to ""
+[150.117s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-info
+[150.117s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-info" to ""
+[150.117s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[150.117s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids" to ""
+[150.117s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[150.117s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment" to ""
+[150.118s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+[150.118s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-rgbd_camera" to ""
+[150.118s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-lidar_viewer
+[150.118s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-lidar_viewer" to ""
+[150.118s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-databaseViewer
+[150.118s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-databaseViewer" to ""
+[150.118s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-odometryViewer
+[150.118s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-odometryViewer" to ""
+[150.119s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-dataRecorder
+[150.119s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-dataRecorder" to ""
+[150.119s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-calibration
+[150.119s] -- Set runtime path of "/home/shiven/colcon_ws/install/rtabmap/bin/rtabmap-calibration" to ""
+[150.119s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapTargets.cmake
+[150.119s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfig.cmake
+[150.119s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/lib/rtabmap-0.21/RTABMapConfigVersion.cmake
+[150.119s] -- Installing: /home/shiven/colcon_ws/install/rtabmap/share/rtabmap/package.xml
+[150.120s] Invoked command in '/home/shiven/colcon_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shiven/colcon_ws/build/rtabmap
